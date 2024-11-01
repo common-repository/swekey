@@ -1,0 +1,211 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: swekey\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-07-19 16:01+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: luc <luc@mogwo.com>\n"
+"Language-Team: swekey <support@sweley.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: swekey_plugin.php:67
+#, php-format
+msgid "The swekey \"%s\" is required to login"
+msgstr "La swekey %s doit être branchée à votre ordinateur pour pouvoir se connecter"
+
+#: swekey_plugin.php:86
+#: swekey_plugin.php:107
+msgid "Authentication"
+msgstr "Aunthentification"
+
+#: swekey_plugin.php:89
+msgid "Swekey Id"
+msgstr "Swekey Id"
+
+#: swekey_plugin.php:110
+msgid "Use my swekey"
+msgstr "Utiliser ma swekey"
+
+#: swekey_plugin.php:147
+msgid "Swekey Settings"
+msgstr "Paramètres de Swekey"
+
+#: swekey_plugin.php:154
+msgid "Check Server Url"
+msgstr ""
+
+#: swekey_plugin.php:156
+msgid "This is the url of the server that is used to validate OTPs"
+msgstr ""
+
+#: swekey_plugin.php:156
+#: swekey_plugin.php:162
+#: swekey_plugin.php:168
+msgid "empty means default value"
+msgstr ""
+
+#: swekey_plugin.php:160
+msgid "Token Server Url"
+msgstr ""
+
+#: swekey_plugin.php:162
+msgid "This is the url of the server that generates random tokens"
+msgstr ""
+
+#: swekey_plugin.php:166
+msgid "Status Server Url"
+msgstr ""
+
+#: swekey_plugin.php:168
+msgid "This is the url of the server that returns the status of a swekey"
+msgstr ""
+
+#: swekey_plugin.php:172
+#: swekey_plugin.php:173
+msgid "Allow disabled swekeys"
+msgstr ""
+
+#: swekey_plugin.php:175
+msgid "Accept to login a user that has lost or disabled his swekey <i>(user friendly)</i>"
+msgstr ""
+
+#: swekey_plugin.php:177
+msgid "Refuse to login a user that has lost or disabled his swekey <i>(paranoid security)</i>"
+msgstr ""
+
+#: swekey_plugin.php:182
+#: swekey_plugin.php:183
+msgid "Allow user to manage his swekey"
+msgstr ""
+
+#: swekey_plugin.php:185
+msgid "Each user can choose to attach or detach a swekey with his account <i>(user friendly)</i>"
+msgstr ""
+
+#: swekey_plugin.php:187
+msgid "Only administrators can attach or detach a swekey with a user account <i>(needs more managment for the administrator)</i>"
+msgstr ""
+
+#: swekey_plugin.php:192
+msgid "Supported Brands"
+msgstr ""
+
+#: swekey_plugin.php:194
+msgid "A brand is a 8 chars hexadecimal upper case value. Brands are comma separated.<br>If you don't known what to put here, keep these field empty."
+msgstr ""
+
+#: swekey_plugin.php:198
+msgid "Swekey Logo Link"
+msgstr ""
+
+#: swekey_plugin.php:200
+msgid "This is the web page linked to the swekey logo next to the user name field of the login form.<br>If you don't known what to put here, keep these field empty."
+msgstr ""
+
+#: swekey_plugin.php:204
+msgid "Allow Mobile Emulation"
+msgstr ""
+
+#: swekey_plugin.php:205
+msgid "Allow Swekey users to log from theirs Smartphone"
+msgstr ""
+
+#: swekey_plugin.php:207
+msgid "Swekey users can login from their authenticated Smartphone <i>(user friendly)</i>"
+msgstr ""
+
+#: swekey_plugin.php:209
+msgid "Swekey users can login only from a desktop computer <i>(highly secure)</i>"
+msgstr ""
+
+#: swekey_plugin.php:214
+msgid "Allow login when network is down"
+msgstr ""
+
+#: swekey_plugin.php:215
+msgid "Allow Swekey users to login even if the Swekey swerver can not be reached"
+msgstr ""
+
+#: swekey_plugin.php:217
+msgid "Allow Swekey users to login even if the Swekey swerver can not be reached <i>(user friendly)</i>"
+msgstr ""
+
+#: swekey_plugin.php:219
+msgid "Swekey users can not login when the server can not be reached <i>(secure)</i>"
+msgstr ""
+
+#: swekey_plugin.php:224
+msgid "Disable Linked OTP feature"
+msgstr ""
+
+#: swekey_plugin.php:225
+msgid "Try to disable linked OTP feature if the Swekey logo is red in the login page"
+msgstr ""
+
+#: swekey_plugin.php:227
+msgid "Disable the linked OTP feature"
+msgstr ""
+
+#: swekey_plugin.php:229
+msgid "Enable the linked OTP feature <i>(phishing safe)</i>"
+msgstr ""
+
+#: swekey_plugin.php:234
+msgid "HTTPS server name"
+msgstr ""
+
+#: swekey_plugin.php:236
+msgid "Use this value is you use a reverse proxy for your https server, keep it empty in most cases"
+msgstr ""
+
+#: swekey_plugin.php:240
+msgid "Swekey Logo horizontal offset"
+msgstr ""
+
+#: swekey_plugin.php:242
+#: swekey_plugin.php:248
+msgid "Helps you move the Swekey logo in the login page"
+msgstr ""
+
+#: swekey_plugin.php:246
+msgid "Swekey Logo vertical offset"
+msgstr ""
+
+#: swekey_plugin.php:252
+msgid "Login name width offest"
+msgstr ""
+
+#: swekey_plugin.php:254
+msgid "Helps you resize the login name field to let more space for the Swekey logo"
+msgstr ""
+
+#: swekey_plugin.php:263
+msgid "Save Changes"
+msgstr "Sauvegarder"
+
+#~ msgid ""
+#~ "A swekey authentication key has been detected.\\nDo you want to associate "
+#~ "it with your account ?"
+#~ msgstr ""
+#~ "Une clé d'authentification swekey a été détectée.\\nVoulez-vous "
+#~ "l'associer à votre compte ?"
+
+#~ msgid "The plugged swekey is now attached to your account"
+#~ msgstr "Votre swekey est maintenant attachée à votre compte."
+
+#~ msgid "Failed to attach the plugged swekey to your account"
+#~ msgstr "L'opération a échoué"
+
+#~ msgid "No swekey plugged"
+#~ msgstr "Aucune swekey n'est connecté à votre ordinateur"
+
+#~ msgid "A swekey is plugged"
+#~ msgstr "Une swekey est connecté à votre ordinateur"
